@@ -1,0 +1,7 @@
+{
+  "id": "Q036",
+  "source_definition": "The starting point is 3-SAT: given a Boolean formula with at most three literals per clause, decide whether a satisfying assignment exists.",
+  "target_definition": "The target instance consists of an m \u00d7 n nonnegative rational matrix X and a nonnegative rational threshold \u03c4, both encoded in binary. It asks whether nonnegative real matrices W of size m \u00d7 2 and H of size 2 \u00d7 n satisfy the error bound below. The factors may be asymmetric and need not have rational entries.",
+  "required_result": "The goal is a deterministic polynomial-time map from a 3-SAT formula to a target instance, such that the formula is satisfiable if and only if the target error bound is attainable. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": "<math display=\"block\" aria-label=\"Squared Frobenius norm of X minus W H is at most tau\"><msubsup><mrow><mo>\u2016</mo><mi>X</mi><mo>\u2212</mo><mi>W</mi><mi>H</mi><mo>\u2016</mo></mrow><mi>F</mi><mn>2</mn></msubsup><mo>\u2264</mo><mi>\u03c4</mi></math>"
+}

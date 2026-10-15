@@ -1,0 +1,3 @@
+import Challenge
+#print axioms RankTwoNonnegativeApproximation.Goal
+#print axioms RankTwoNonnegativeApproximation.solve
